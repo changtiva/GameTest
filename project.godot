@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="Game"
+run/main_scene="res://场景文件夹/主场景.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[physics]
+
+3d/physics_engine="JoltPhysics3D"
